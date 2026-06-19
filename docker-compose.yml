@@ -45,3 +45,5 @@ networks:
 volumes:
   jenkins_home:
 - uses: actions/checkout@v4
+- name: Build services
+  run: docker compose build
