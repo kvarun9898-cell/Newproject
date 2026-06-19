@@ -6,7 +6,7 @@ pipeline {
         stage('Clone Repo') {
             steps {
                 git branch: 'main',
-                url: ' https://github.com/kvarun9898-cell/Newprojects.git'
+                url: ' https://github.com/kvarun9898-cell/Newproject.git'
             }
         }
 
