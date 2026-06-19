@@ -44,3 +44,4 @@ networks:
 
 volumes:
   jenkins_home:
+- uses: actions/checkout@v4
