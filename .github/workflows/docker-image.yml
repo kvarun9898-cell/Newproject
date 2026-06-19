@@ -14,5 +14,4 @@ jobs:
       - name: Build Backend
         run: docker build -t backend-image -f backend/Dockerfile backend
 
-      - name: Build Frontend
-        run: docker build -t frontend-image -f frontend/Dockerfile frontend
+     
